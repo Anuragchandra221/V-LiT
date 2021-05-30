@@ -1,0 +1,153 @@
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: stroke;
+    src: url(Stroke\ Dimension.woff);
+}
+header{
+    height: 100vh;
+    background-color: #457782;
+}
+.maindiv h2{
+    font-family: stroke, 'sans-serif';
+    font-size: 7em;
+    text-shadow: 1px 1px 4px black;
+    letter-spacing: .1em;
+}
+.active{
+    border-bottom: 2px solid #22587D;
+}
+#web1{
+    display: none;
+}
+#web2{
+    display: none;
+}
+.heading{
+    font-family: stroke, 'sans-serif';
+    color: #457782;
+    font-size: 3em;
+    font-weight: 400;
+    text-shadow: 1px 1px 4px #457782;
+}
+.card-img-top{
+    border-radius: 0px;
+}
+.para{
+    line-height: 1.7em;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 'large';
+    color: #508d9b;
+}
+.maindiv p{
+    font-family: 'Waiting for the Sunrise', 'cursive';
+    font-weight: 700;
+    font-size: larger;
+    color: #5ca1b1;
+}
+.last{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: #457782;
+    color: #fff;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+input{
+    width: 90%;
+}
+#first{
+    display: none;
+    animation-name: first;
+    animation-duration: 2s;
+    
+}
+@keyframes first{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#web1{
+    display: none;
+    animation-name: first;
+    animation-duration: 2s;
+    
+}
+@keyframes first{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#web2{
+    display: none;
+    animation-name: first;
+    animation-duration: 2s;
+    
+}
+
+@keyframes first{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+nav{
+    margin-inline: auto;
+}
+a{
+    font-family: 'Waiting for the Sunrise', 'cursive';
+    font-weight: 700;
+}
+.firstdiv{
+    background-color: #457782;
+    background-image: url("images/20210530_170417.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+select{
+    background-color: #345961;
+    color: #fff;
+    text-align: center;
+    
+}
+@media only screen and (max-width: 768px){
+    nav{
+        margin-inline: 0px;
+    }
+    .maindiv h2{
+        font-family: stroke;
+        font-size: 5em;
+        text-shadow: 1px 1px 4px black;
+        letter-spacing: .1em;
+    }
+    .active{
+        border-bottom: 0px;
+    }
+    inputtextarea{
+        width: 100%;
+    }
+}

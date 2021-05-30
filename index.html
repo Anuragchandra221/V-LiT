@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-LIT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">    
+    <link rel="icon" href="images/WhatsApp Image 2021-05-30 at 1.47.52 PM.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container-fluid py-2" style="background-color: rgba(255, 255, 255, .9);color: #457782; ">
+            <div class="row px-md-5 d-flex align-items-center">
+                  <nav class="navbar navbar-expand-lg navbar-dark ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #457782;">
+                      <span class="navbar-toggler-icon" ></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                      <ul class="navbar-nav mx-auto" style="font-size: 1.7rem;">
+                        <li class="nav-item " style="background: none;">
+                          <a class="nav-link mr-4 active" onclick="change(1)" id="nav1" href="#home" style="color: #22587D;">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link mr-4" href="#about" id="nav2" onclick="change(2)"  style="color: #22587D;">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link mr-4" href="#placeorder" id="nav3" onclick="change(3)"  style="color: #22587D;">Place Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" id="nav4" onclick="change(4)"  style="color: #22587D;">Contact Us</a>
+                          </li>
+                        
+                      </ul>
+                    </div>
+            </div>
+        </div>
+        
+            <div class="row firstdiv" id="myFrame" style="height: 91%;">
+                <div class="col-12 d-flex justify-content-center align-items-center maindiv" style="height: 100%;background-color: rgba(255, 255, 255, .9);flex-direction: column;">
+                    <h2>V-LiT</h2>
+                    <p id="hii"></p>
+                </div>
+            </div>
+    </header>
+    <section class="mx-auto  p-md-5 col-12" id="about" style="background-color:#fff; width: 100%;">
+        <div class="container pt-3 py-md-4" style="background-color:#ffffff; width: 100%;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/undraw_design_team_af2y.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center py-4 py-md-0" style="flex-direction: column;">
+                        <p class="heading">What Are We?</p>
+                        <p class="para">Looking to power your business and take it to the next level? We have the bespoke solutions you need.
+
+                            A reliable and experienced marketing expert in the industry, we are always at work drafting unique and effective marketing strategies and processes from scratch, and execute them with utmost focus on the most important element of your businessâ€”constant business growth and customer satisfaction.
+
+                            We look to create results at affordable rates rather than just services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="px-2 px-md-0" style="background-image: linear-gradient(180deg, #ffffff 50%, #457782 50%);">
+        <h3 class="mx-auto heading mb-5" style="width: max-content;">Featured Works</h3>
+        <div class="container shadow p-4" style="background-color: #fff;border-radius: 15px;">
+            <h5 class="mx-auto heading" style="width: max-content;font-size: 2em;color: #173036;">Photography</h5>
+            <p class="para text-center mx-auto" style="width: max-content;max-width: 100%;">Ever thought you don't have that perfect picture to post? That's what we are here for.</p>
+            <div class="row px-1 px-md-2 d-flex" style="justify-content: space-evenly;">
+                <div class="col-md-3  px-0 px-md-2 " style="max-width: 90%;">
+                        <img class="card-img-top" src="images/photography/IMG-20210529-WA0027.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text para">Luxury defined by attitude and the perfect angle of focus.</p>
+                        </div>
+                </div>
+                <div class="col-md-3 px-1 px-md-2" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/photography/IMG-20210529-WA0031.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text para">Style and swag never gets dimmer once they are in our hands.</p>
+                        </div>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0  px-0 px-md-2" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/photography/IMG-20210529-WA0189.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text para">Our members never fails to capture and enhance the charm and beauty of the models.</p>
+                        </div>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0  px-0 px-md-2" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/photography/IMG-20210529-WA0190.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text para">Nature at it's best? Well it's bestest when we capture it.</p>
+                        </div>
+                </div>
+
+            </div>
+            <div class="mx-auto para" id="fi" style="width: max-content;cursor: pointer;" onclick="show1(1)"><i class="fa fa-chevron-circle-down mx-auto" style="font-size: xx-large;" aria-hidden="true"></i></div>
+            <div id="first" style="flex-direction: column;">
+                <div class="row px-1 px-md-2 d-flex"  style="justify-content: space-evenly;">
+                    <div class="col-md-4  px-0 px-md-2 " style="max-width: 90%;">
+                            <img class="card-img-top" src="images/photography/IMG-20210529-WA0192.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text para">Magnificent layer of touch added to this beautiful staycation villa done by our professionals.</p>
+                            </div>
+                    </div>
+                    <div class="col-md-4 px-1 px-md-2" style="max-width: 90%;">
+                            <img class="card-img-top" src="images/photography/IMG-20210529-WA0191.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text para" >Exploring nature, Journey through their soul.</p>
+                            </div>
+                    </div>
+                    <div class="col-md-4 px-1 px-md-2" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/photography/IMG-20210529-WA0192.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text para">Not just walls, Witness for countless moments..</p>
+                    </div>
+                </div><br/>
+
+            </div>
+                <div class="row text-center">
+                    <div class="mx-auto para" style="width: max-content;cursor: pointer;" onclick="show1(2)"><i class="fa fa-chevron-circle-up mx-auto" style="font-size: xx-large;"aria-hidden="true"></i></div>
+                </div>
+            
+            </div>
+    </div>
+    </section>
+    <section class="pt-5 px-2 px-md-0" style="background-image: linear-gradient(180deg, #457782 50%, #ffffff 50%);">
+        <div class="container shadow p-4 pt-4" style="background-color: #fff;border-radius: 15px;">
+            <h5 class="mx-auto heading" style="width: max-content;font-size: 2em;color: #173036;">E-Cards</h5>
+            <p class="para mx-auto text-center" style="width: max-content;max-width: 100%;">Customized cards for all your precious moments that you will cherish forever.</p>
+            <div class="row px-1 px-md-2 d-flex" style="justify-content: space-evenly;">
+                <div class="col-md-3  px-0 px-md-2  mb-3 mb-md-0 text-center" style="background-color: #fff;max-width: 90%;">
+                        <img class="card-img-top" src="images/e-cards/IMG-20210529-WA0107.jpg" style="width: 80%;height: auto;" alt="Card image cap">
+                </div>
+                <div class="col-md-3 px-1 px-md-2  mb-3 mb-md-0 text-center" style="background-color: #fff;max-width: 90%;">
+                        <img class="card-img-top" src="images/e-cards/IMG-20210529-WA0178.jpg" style="width: 80%;height: auto;"  alt="Card image cap">
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0  mb-3 mb-md-0 px-0 px-md-2 text-center" style="background-color: #fff;max-width: 90%;">
+                        <img class="card-img-top" src="images/e-cards/IMG-20210529-WA0179.jpg" style="width: 80%;height: auto;"  alt="Card image cap">
+
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0  px-0 px-md-2 text-center" style="background-color: #fff;max-width: 90%;">
+                        <img class="card-img-top" src="images/e-cards/IMG-20210529-WA0180.jpg" style="width: 80%;height: auto;"  alt="Card image cap">
+                        
+                </div>
+            </div>
+    </div>
+    </section>
+    <section class="pt-5 px-2 px-md-0" style="background-image: linear-gradient(180deg, #ffffff 50%, #457782 50%);">
+        <div class="container shadow p-4 pb-3" style="background-color: #fff;border-radius: 15px;">
+            <h5 class="mx-auto heading" style="width: max-content;font-size: 2em;color: #173036;">Posters</h5>
+            <p class="para mx-auto text-center" style="width: max-content;max-width: 100%;">Conveying thoughts and ideas are now more easy with our fine posters.</p>
+            <div class="row px-1 px-md-2 d-flex" style="justify-content: space-evenly;">
+                <div class="col-md-3  px-0 px-md-2 mb-3 mb-md-0" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/posters/WhatsApp Image 2021-05-29 at 5.14.03 PM (1).jpeg" alt="Card image cap">
+                </div>
+                <div class="col-md-3 px-1 px-md-2" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/posters/WhatsApp Image 2021-05-29 at 5.14.03 PM.jpeg" alt="Card image cap">
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0  px-0 px-md-2" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/posters/WhatsApp Image 2021-05-29 at 5.20.21 PM.jpeg" alt="Card image cap">
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0  px-0 px-md-2" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/posters/WhatsApp Image 2021-05-29 at 5.23.45 PM.jpeg" alt="Card image cap">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-5 px-2 px-md-0" style="background-image: linear-gradient(180deg, #457782 50%, #ffffff 50%);">
+        <div class="container shadow p-4 pt-4" style="background-color: #fff;border-radius: 15px;">
+            <h5 class="mx-auto heading" style="width: max-content;font-size: 2em;color: #173036;">Websites</h5>
+            <p class="para mx-auto text-center" style="width: max-content;max-width: 100%;">Customized cards for all your precious moments that you will cherish forever.</p>
+            <div class="row px-1 px-md-2 d-flex" style="justify-content: space-evenly;">
+                <div class="col-md-3  mb-4 mb-md-0 px-0 px-md-2 " style="background-color: #fff;max-width: 90%;">
+                        <img class="card-img-top" src="images/sites/comp.jpg" alt="Card image cap">
+                       
+                </div>
+                <div class="col-md-3  mb-3 mb-md-0 px-1 px-md-2" style="background-color: #fff;max-width: 90%;cursor: pointer;">
+                        <img class="card-img-top" src="images/sites/realet.jpg" alt="Card image cap">
+                        <div class="row mx-auto para mt-2" id="i1" style="width: max-content;cursor: pointer;" onclick="image(1)"><i class="fa fa-chevron-circle-down mx-auto" style="font-size: xx-large;"aria-hidden="true"></i></div>
+                        <div class="card-body" id="web1">
+                            <a href="https://anuragchandra221.github.io/Anurag-Chandra_3/" target="_blank"><button class="btn " style="background-color: #457782;color: #fff;font-family: 'Source Sans Pro', 'sans-serif';">View Page</button></a>
+                            <div class="row mx-auto para" style="width: max-content;cursor: pointer;" onclick="image(2)"><i class="fa fa-chevron-circle-up mx-auto" style="font-size: xx-large;"aria-hidden="true"></i></div>
+                          </div>
+                </div>
+                <div class="col-md-3  mb-3 mb-md-0  px-0 px-md-2" style="background-color: #fff;max-width: 90%;cursor: pointer;">
+                        <img class="card-img-top" src="images/sites/torquiddo.jpg" alt="Card image cap">
+                        <div class="row mx-auto para mt-2" id="i3" style="width: max-content;cursor: pointer;" onclick="image(3)"><i class="fa fa-chevron-circle-down mx-auto" style="font-size: xx-large;"aria-hidden="true"></i></div>
+                        <div class="card-body"  id="web2">
+                            <a href="https://anuragchandra221.github.io/Torquiddo/"><button class="btn" style="background-color: #457782;color: #fff;font-family: 'Source Sans Pro', 'sans-serif';">View Page</button></a>
+                            <div class="row mx-auto para" style="width: max-content;cursor: pointer;" onclick="image(4)"><i class="fa fa-chevron-circle-up mx-auto" style="font-size: xx-large;"aria-hidden="true"></i></div>
+                          </div>
+
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0  px-0 px-md-2" style="background-color: #fff;max-width: 90%;">
+                        <img class="card-img-top" src="images/sites/Untitled.jpg" alt="Card image cap">
+                        
+                </div>
+            </div>
+    </div>
+    </section>
+    <section class="pt-5 px-2 px-md-0" style="background-image: linear-gradient(180deg, #ffffff 50%, #457782 50%);">
+        <div class="container shadow p-4 pb-2" style="background-color: #fff;border-radius: 15px;">
+            <h5 class="mx-auto heading" style="width: max-content;font-size: 2em;color: #173036;">Logos</h5>
+            <p class="para mx-auto text-center" style="width: max-content;max-width: 100%;">Our logos tell stories to the world.</p>
+            <div class="row px-1 px-md-2 d-flex" style="justify-content: space-evenly;">
+                <div class="col-md-2  mb-3 mb-md-0  px-0 px-md-2 " style="max-width: 90%;">
+                        <img class="card-img-top" src="images/logos/20210530_032651.png" alt="Card image cap">
+                </div>
+                <div class="col-md-2 px-1 px-md-2" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/logos/20210530_033239.png" alt="Card image cap">
+                </div>
+                <div class="col-md-2 mt-3 mt-md-0   px-0 px-md-2" style="max-width: 90%;">
+                        <img class="card-img-top" src="images/logos/20210530_033836.png" alt="Card image cap">
+                </div>
+                <div class="col-md-2 mt-3 mt-md-0  px-0 px-md-2" style="max-width: 90%;">
+                    <img class="card-img-top" src="images/logos/20210530_034349.png" alt="Card image cap">
+                </div>
+                <div class="col-md-2 mt-3 mt-md-0  px-0 px-md-2" style="max-width: 90%;">
+                    <img class="card-img-top" src="images/logos/20210530_034603.png" alt="Card image cap">
+                </div>
+                <div class="col-md-2 mt-3 mt-md-0  px-0 px-md-2" style="max-width: 90%;">
+                    <img class="card-img-top" src="images/logos/WhatsApp Image 2021-05-30 at 1.35.47 PM.jpeg" alt="Card image cap">
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section class="pt-5" id="placeorder" style="background-color: #457782;">
+        <div class="container pt-3 py-md-4" style=" width: 100%;">
+            <h3 class="mx-auto heading mb-5" style="width: max-content;color: #fff; letter-spacing: normal;">Order going in...</h3>
+            <div class="row">
+                
+                <div class="col-md-6 d-flex justify-content-start">
+                    <img src="images/undraw_online_art_bgb4.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-start py-4 py-md-0 " style="flex-direction: column;">
+                    <form id="submit-form" action="" class="text-center" style="width: 100%;">
+                        <input class="mb-2" type="text" name="name" id="" placeholder="Name...">
+                        <input class="mb-2" type="Email" name="email" id="" placeholder="Email...">
+                        <div class="mb-2 pl-3 pl-md-4" style="width: max-content;">
+                            <select id="jobs" name="jobs">
+                                <option value="Photoshoots">Photoshoots</option>
+                                <option value="E-Cards">E-Cards</option>
+                                <option value="Posters">Posters</option>
+                                <option value="Logos">Logos</option>
+                                <option value="Static Websites">Static Websites</option>
+                            </select>
+                        </div>
+                        <textarea name="message" id="msg" cols="30" rows="10" placeholder="Add a description" style="width: 90%;"></textarea> <br/>
+                        <input type="submit" class="btn  mr-auto" style="width: 90%; border-radius: 16px; background-color: #362312; color: #fff;" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="px-2 px-md-0" style="background-color: #fff;">
+        <h3 class="mx-auto heading mt-5 mb-2" style="width: max-content;">Us...</h3>
+        <div class="container mb-5">
+            <p class="para text-center mx-auto" style="width: max-content;max-width: 100%;">Talents wins games but teamwork is what pushes us to take greater risks and strive through. Meet our power gang...</p>
+            <div class="row">
+                <div class="col-4 col-md-2"><div style="width: fit-content;" class="text-center"><img src="images/us/20210530_022037.png"  style="width: 65%; height: auto;" alt=""><p class="para text-center mx-auto" style="width: fit-content;">Asna Haris</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;" class="text-center"><img src="images/us/20210530_031658.png"  style="width: 65%; height: auto;" alt=""><p class="para text-center mx-auto" style="width: fit-content;">Azmiya P Nameer</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;" class="text-center"><img src="images/us/20210530_022000.png"  style="width: 65%; height: auto;" alt=""><p class="para text-center mx-auto" style="width: fit-content;">Archana TK</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;" class="text-center"><img src="images/us/20210530_021021.png"  style="width: 65%; height: auto;" alt=""><p class="para text-center mx-auto" style="width: fit-content;">Aswin MM</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;" class="text-center"><img src="images/us/20210530_021425.png"  style="width: 65%; height: auto;" alt=""><p class="para text-center mx-auto" style="width: fit-content;">Akhil Joshy</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;" class="text-center"><img src="images/us/20210530_021106.png"  style="width: 65%; height: auto;" alt=""><p class="para text-center mx-auto" style="width: fit-content;">Hamna Nazrin VN</p></div></div>  
+            </div>
+            <div class="row">
+                <div class="col-4 col-md-2"><div style="width: fit-content;"  class="text-center"><img src="images/us/20210530_021304.png" style="width: 70%; height: auto;" alt=""><p class="para text-center  mx-auto" style="width: fit-content;">Fatimahziya AT</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;"  class="text-center"><img src="images/us/20210530_021520.png" style="width: 70%; height: auto;" alt=""><p class="para text-center  mx-auto" style="width: fit-content;">Anurudh Deepan</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;"  class="text-center"><img src="images/us/20210530_021627.png" style="width: 70%; height: auto;" alt=""><p class="para text-center  mx-auto" style="width: fit-content;">Hanna Jose</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;"  class="text-center"><img src="images/us/20210530_021809.png" style="width: 70%; height: auto;" alt=""><p class="para text-center  mx-auto" style="width: fit-content;">Advaith CJ</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;"  class="text-center"><img src="images/us/20210530_021924.png" style="width: 70%; height: auto;" alt=""><p class="para text-center  mx-auto" style="width: fit-content;">Hima Musthafa TH</p></div></div>
+                <div class="col-4 col-md-2"><div style="width: fit-content;"  class="text-center"><img src="images/us/20210530_021206.png" style="width: 70%; height: auto;" alt=""><p class="para text-center  mx-auto" style="width: fit-content;">Anurag chandra</p></div></div>  
+            </div>          
+            </div>
+            </div>
+    </div>
+    </section>
+    <footer class="pt-5 px-2 px-md-0" id="contact" style="background-color: #457782;">
+        <div class="container pb-2">
+            <h5 class="mx-auto heading" style="width: max-content;font-size: 2em;color: #173036;color: #fff;">Contact Us</h5>
+            <p class="para mx-auto text-center" style="width: max-content;color: #fff;max-width: 100%;">For all enquiries, please email us using this form.</p>
+            <div class="row px-1 px-md-2 d-flex mb-4" style="justify-content: space-evenly;">
+                <div class="col-md-6">
+                    <form id="submit-form1" action="" class="text-center" style="width: 100%;">
+                        <input class="mb-2" type="text" name="name" id="" placeholder="Name...">
+                        <input class="mb-2" type="Email" name="email" id="" placeholder="Email...">
+                        <textarea name="message" id="msg" cols="30" rows="10" placeholder="Say something..." style="width: 90%;"></textarea> <br/>
+                        <input type="submit" class="btn  mr-auto" style="width: 90%; border-radius: 16px; background-color: #362312; color: #fff;" value="Send">
+                    </form>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center text-white">
+                    <div>
+                        <p class="para" style="color: #fff;"><a href="mailto:vlit2021official@gmail.com" style="color: #fff;">Mail: vlit2021official@gmail.com</p></a></p>
+                        <p class="para text-center" style="color: #fff;">
+                            <a class="mr-2" href="https://www.instagram.com/v_lit2021official?r=nametag" target="_blank" style="color: #fff;"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/V-lit-100526922254672" target="_blank" style="color: #fff;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <p class="para text-center mx-auto my-auto"  style="color: #fff;width: max-content;">&copy; V-Lit 2021</p>
+            </div>
+        </div>
+    </footer>
+    <div class="last " id="last" onclick="toTop()">
+        <i class="fa fa-arrow-up" aria-hidden="true" style="font-size: xx-large;margin:25%"></i>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script>
+  $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbyWHqKjJYLsP1o6xmU98OjV2CoyPP-5SsZJCZuQfpN2gQFLAyyWlb5itmym8eGdSqtR/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    /*alert("Form submitted successfully")*/
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+</script>
+<script>
+    $("#submit-form1").submit((e)=>{
+              e.preventDefault()
+              $.ajax({
+                  url:"https://script.google.com/macros/s/AKfycbwxTjr3Rw8L6CZvGMH0_XFd-Vc2r7YMdaySPTQrm6SM3H4p5LSGiEgf496Hn1TrGBY-uQ/exec",
+                  data:$("#submit-form1").serialize(),
+                  method:"post",
+                  success:function (response){
+                      /*alert("Form submitted successfully")*/
+                      window.location.reload()
+                      //window.location.href="https://google.com"
+                  },
+                  error:function (err){
+                      alert("Something Error")
+      
+                  }
+              })
+          })
+  </script>
+</body>
+</html>
